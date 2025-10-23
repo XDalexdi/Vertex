@@ -12,13 +12,12 @@
 
 **Location/Method:** University coffee shop  
 
-**Interviewee Code:** P002
  
 ## ICP Verification
 
 - Age: 21
 
-- University: KIU
+- University: Illia State University
 
 - Program: Business Managment
 
