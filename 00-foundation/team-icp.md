@@ -1,5 +1,5 @@
 # Ideal Customer Profile (ICP)
-**Team:** CodeCatalysts  
+**Team:** Vertex 
 **Date:** October 10, 2025
 
 ## Target User
