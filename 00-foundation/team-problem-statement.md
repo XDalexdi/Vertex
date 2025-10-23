@@ -1,5 +1,5 @@
 # Team Problem Statement
-**Team Name:** CodeCatalysts  
+**Team Name:** Vertex  
 **Date:** October 10, 2025
 
 ## Context
