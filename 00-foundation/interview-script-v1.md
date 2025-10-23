@@ -1,5 +1,5 @@
 # Interview Script v1
-**Team:** CodeCatalysts  
+**Team:** Vertex  
 **Purpose:** Understand how students manage academic deadlines  
 **Length:** 15–20 minutes
 
