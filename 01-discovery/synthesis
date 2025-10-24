@@ -1,0 +1,3 @@
+cd Vertex
+mkdir -p 01-discovery/synthesis
+cd 01-discovery/synthesis
