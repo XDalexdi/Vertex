@@ -14,10 +14,10 @@ Last Updated: October 31, 2025
 | 004 | Student-GRAD01 | Email | Oct 20, 2025 | Oct 22, 2025 | ✅ Completed | Avtandil Ananidze | Graduate student, multi-domain conflicts |
 | 005 | Student-INT01 | Social media | Oct 20, 2025 | Oct 23, 2025 | ✅ Completed | Lekso Potskhverashvili | International student, language/system barriers |
 | 006 | Student-GRAD02 | LinkedIn | Oct 25, 2025 | Oct 31, 2025 | ✅ Completed | Demetre Mikeladze | Data Science Master's, freelance + academic balance |
-| 007 | Student-INT02 | International Office | Oct 28, 2025 | Nov 15, 2025 | ✅ Completed | Lekso Potskhverashvili | French exchange student, communication barriers |
-| 008 | Student-CS03 | Campus flyer | Nov 1, 2025 | Nov 5, 2025 | ✅ Completed | Avtandil Ananidze | CS undergrad, LMS reliability issues |
-| 009 | Student-BIS01 | Email | Nov 3, 2025 | Nov 8, 2025 | ✅ Completed | Aleksandre Dididze | Business Information Systems, tool fragmentation |
-| 010 | Student-BUS02 | Referral from P002 | Nov 5, 2025 | Nov 12, 2025 | ✅ Completed | Murman Gorgadze | Business Admin, team coordination challenges |
+| 007 | Student-INT02 | International Office | Oct 26, 2025 | Oct 29 , 2025 | ✅ Completed | Lekso Potskhverashvili | French exchange student, communication barriers |
+| 008 | Student-CS03 | Campus flyer | Oct 24, 2025 | Oct 30, 2025 | ✅ Completed | Avtandil Ananidze | CS undergrad, LMS reliability issues |
+| 009 | Student-BIS01 | Email | Oct 29, 2025 | Oct 30, 2025 | ✅ Completed | Aleksandre Dididze | Business Information Systems, tool fragmentation |
+| 010 | Student-BUS02 | Referral from P002 | Oct 27, 2025 | Oct 29, 2025 | ✅ Completed | Murman Gorgadze | Business Admin, team coordination challenges |
 
 # Outreach Pipeline
  
