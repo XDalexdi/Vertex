@@ -5,7 +5,7 @@
 | Field | Details |
 |-------|---------|
 | **Interview Number** | #010 |
-| **Date** | 2025-11-02 |
+| **Date** | 2025-10-29 |
 | **Time** | 23:00 – 23:45 |
 | **Duration** | 45 minutes |
 | **Location/Method** | Library Study Room |
