@@ -1,4 +1,4 @@
-# Synthesis Readiness Checklist
+[# Synthesis Readiness Checklist
  
 **Team Name:** Vertex  
 **Date:** November 2, 2025  
@@ -50,4 +50,3 @@
 - Demetre Mikeladze - DM - 2025-11-02
 - Lekso Potskhverashvili - LP - 2025-11-02
  
-**File Location:** `/01-discovery/synthesis/synthesis-readiness-checklist.md`
