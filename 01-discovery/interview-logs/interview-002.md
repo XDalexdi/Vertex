@@ -4,7 +4,7 @@
 | Field | Details |
 |-------|---------|
 | Interview Number | #002 |
-| Date | 2025-10-22 |
+| Date | 2025-10-19 |
 | Time | 14:00 – 14:45 |
 | Duration | 45 minutes |
 | Location/Method | Google Meet |
