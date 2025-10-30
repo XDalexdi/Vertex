@@ -1,5 +1,4 @@
 [file name]: interview-003.md  
-[file content begin]  
 # Interview Log #006 
 
 ## Interview Metadata  
