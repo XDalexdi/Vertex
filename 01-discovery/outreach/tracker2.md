@@ -1,5 +1,3 @@
-Perfect! I can see you have interviews 006 through 010 ready to add to your tracker. Let me update the tracker with these 5 new interviews:
-
 [file name]: interview-tracker.md
 [file content begin]
 # Interview Tracker
