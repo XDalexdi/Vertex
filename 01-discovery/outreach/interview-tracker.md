@@ -2,7 +2,7 @@
 # Interview Tracker
 Team: Vertex 
 Target: 10 interviews by Week 6
-Last Updated: November 20, 2025
+Last Updated: October 31, 2025
 
 # Completed Interviews
  
