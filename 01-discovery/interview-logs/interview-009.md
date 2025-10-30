@@ -12,7 +12,6 @@ Interviewee ID	Student-CS02
 Recording	Yes
 ICP Verification
 
-Does the interviewee match our ICP? ✅ Yes
 
 Screener Questions & Responses
 
