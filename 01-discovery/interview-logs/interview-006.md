@@ -217,4 +217,3 @@ Provided one referral: a peer in a similar situation (student + freelancer).
 **One-sentence summary:** Graduate students juggling academic, professional, and volunteer roles lack tools that recognize different task types and help manage mental transitions between responsibilities.  
 
 Interview log complete  
-[file content end]
