@@ -219,4 +219,3 @@ Provided two other international student contacts from different countries.
 **One-sentence summary:** International students face catastrophic visa consequences from academic misunderstandings due to language barriers, cultural differences, and unfamiliar systems, leading to extreme precautionary overhead.
 
 Interview log complete  
-[file content end]
