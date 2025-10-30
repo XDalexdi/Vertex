@@ -1,4 +1,4 @@
-Interview Log #009
+Interview Log #002
 
 Interview Metadata
 Field	Details
@@ -15,209 +15,204 @@ ICP Verification
 Does the interviewee match our ICP? ✅ Yes
 
 Screener Questions & Responses
+
 Q1: Are you currently a university student in Georgia/Europe?
-A: Yes, I’m studying at Caucasus University.
+A: Yes, I’m a student at Caucasus University.
 
 Q2: Are you aged 19–22 and studying CS/Engineering/Business?
-A: Yes, I’m 21, majoring in Business Information Systems.
+A: Yes, 21 years old, majoring in Business Information Systems.
 
 Q3: Do you use multiple tools to manage academic deadlines?
-A: Absolutely, I use LMS, Trello, and Google Calendar.
+A: Yes, I use LMS, Trello, and Google Calendar regularly.
 
 ICP Match Assessment
 
-The interviewee fits the ICP perfectly: a 21-year-old Business Information Systems student managing multiple academic tools simultaneously. Their workflow complexity and tool juggling make them a strong fit for understanding fragmentation-related stress.
+The interviewee fits our ICP perfectly: a 21-year-old Business Information Systems student juggling multiple academic tools daily. Their reliance on several unconnected systems makes them ideal for exploring tool fragmentation and cognitive load.
 
 Interviewee Background
 
 Relevant Demographics
-
 Year: Third year
-
 Major: Business Information Systems
-
 Living situation: Off-campus apartment
-
 Work status: Part-time internship (10 hours/week)
-
 Other relevant info: Member of student business club
 
 Context & Situation
 
 Course load: 5 courses including Database Systems and Business Analytics
-Group projects: 3 active team projects this semester
+Group projects: 3 concurrent team projects this semester
 Extracurriculars: Business club and part-time internship
-Relationship to problem: Regularly experiences stress from managing multiple platforms and overlapping deadlines
-Current solutions used: Trello for tracking, Google Calendar for reminders, LMS for official dates, and Telegram for group chat coordination
-Pain level: High — “It’s like a constant background noise of stress.”
+Relationship to Problem: Feels overwhelmed by fragmented tools and unclear information sources
+Current solutions they use: Trello for project management, Google Calendar for schedules, LMS for deadlines, Telegram for team updates
+Pain level: High – reports feeling “constantly tense” and “mentally tired” from managing so many systems
 
 Key Quotes (Verbatim)
 
-Quote 1 – Tool overload
+Quote 1: Tool overload
+What they said (verbatim): “Between LMS, Trello, and Calendar, I feel like I’m managing my tools more than my classes.”
+Context: When describing how she organizes her daily schedule.
+Why it matters: Shows the mental burden and inefficiency caused by scattered systems.
 
-“Between LMS, Trello, and Calendar, I feel like I’m just managing the tools instead of my studies.”
-Context: Describing her daily preparation routine.
-Why it matters: Captures the emotional and cognitive fatigue caused by system fragmentation.
+Quote 2: Missed critical updates
+What they said (verbatim): “I didn’t know our project deadline was moved up — the update was buried in LMS announcements.”
+Context: Recalling a past incident that led to a late submission.
+Why it matters: Illustrates the academic consequences of fragmented and noisy communication channels.
 
-Quote 2 – Missed updates
-
-“I didn’t realize my marketing project deadline was moved up because the update was buried in LMS messages.”
-Context: Sharing an incident that led to a penalty.
-Why it matters: Demonstrates the real academic consequences of missed information due to scattered communication.
-
-Quote 3 – Manual syncing
-
-“Every Sunday evening, I recheck all tools just to make sure I’m not missing anything. It takes forever.”
-Context: Responding to a question about weekly organization habits.
-Why it matters: Emphasizes the heavy manual workload and time cost students bear to maintain control.
+Quote 3: Manual sync frustration
+What they said (verbatim): “Every Sunday night I sit down and recheck every tool. It’s exhausting but necessary.”
+Context: Describing her weekly planning habit.
+Why it matters: Highlights the unsustainable effort students invest to stay organized.
 
 Problem Deep Dive
 
 The Story: What Happened
-Natia recounted a week before midterms when she had overlapping project and quiz deadlines. She had logged all LMS due dates into Trello earlier in the semester. However, her professor posted a schedule change in an LMS announcement two days before the new deadline. She didn’t see it until the following morning — after the submission time had already passed. “I was shocked,” she said. “I thought I had two more days. It wasn’t even in the email.”
+Natia shared how she once missed a marketing project deadline after assuming the original LMS date was still valid. The professor had changed it two days earlier through an LMS announcement that she didn’t notice. When she logged in the next morning, the assignment was already marked late. “I almost cried,” she said. “It wasn’t laziness — it was just buried.”
 
-She emailed her professor, but the grade was marked late. The incident made her distrust her current system. Since then, she double-checks every date manually and updates her boards each week, which she admitted is “mentally exhausting.”
+Since that event, she’s become hyper-vigilant about updates. Every Sunday, she checks LMS, Trello, and Google Calendar manually to verify every due date. She admits the process is “draining” but “the only way to avoid another disaster.”
 
 Five Whys / Root Cause Exploration
 
-Surface problem: Missed deadline because of outdated personal tracking data.
+Surface problem: Missed deadline due to untracked LMS update.
 
-Why #1: Why was her tracking data outdated?
-“Because the deadline change was only in LMS announcements.”
+Why #1: Why was the update missed?
+“Because it was only posted in LMS announcements.”
 
-Why #2: Why didn’t she see the announcement?
-“I only check LMS once or twice a week — there’s too much clutter.”
+Why #2: Why didn’t she check LMS announcements?
+“They’re cluttered — professors post too much random stuff there.”
 
-Why #3: Why is LMS cluttered?
-“Every professor posts random things — discussions, extra readings, reminders — it’s chaos.”
+Why #3: Why is it hard to filter important updates?
+“There’s no distinction between major updates and small comments.”
 
-Why #4: Why doesn’t she check daily?
-“I rely on my calendar and Trello. LMS just feels unreliable and messy.”
+Why #4: Why not check more often?
+“It’s overwhelming and I rely on my calendar for quick reference.”
 
-Why #5: Why can’t she consolidate information automatically?
-“Nothing connects properly. I have to copy-paste everything myself.”
+Why #5: Why can’t she centralize updates automatically?
+“Nothing syncs — everything has to be copied by hand.”
 
-Root Cause Assessment:
-Information fragmentation and poor LMS communication design create constant gaps in awareness. Students compensate with manual tracking, which increases workload and anxiety.
+Root cause assessment:
+Information fragmentation and noisy communication channels cause students to miss updates and deadlines, creating high mental overhead and distrust in existing tools.
 
 Emotional Impact
 
-Feelings described: Overwhelmed, anxious, and tired.
-Words used: “Draining,” “exhausting,” “messy,” “never-ending.”
-Physical/behavioral indicators: Rubbed her forehead repeatedly during the interview, sighed often.
-Impact on life: Sleep disruption before deadlines, decreased focus, and less motivation for extracurricular work.
+How did they describe feeling? Overwhelmed and anxious about missing details.
+What words did they use? “Draining,” “messy,” “exhausting,” “I can’t relax.”
+Physical/behavioural indicators: Frequent sighing and rubbing her temples when recalling incidents.
+Impact on her life: Reduced sleep, decreased productivity, and loss of confidence in digital systems.
 
 Frequency & Pattern
 
-How often: Minor confusion weekly, major deadline mix-ups 1–2 times per semester.
-Pattern: Always occurs when announcements are posted late or inconsistently.
-Change over time: Increasing frequency as workload and group projects expand.
-Other instances: Missed quiz because professor used Google Docs instead of LMS to post the link.
+How often does this occur? Minor confusion weekly; serious issues 1–2 times per semester.
+Is there a pattern? Always triggered by deadline changes or inconsistent professor updates.
+Has the frequency changed over time? Increased as project workload and group coordination grew.
+Other instances mentioned: Missed a quiz link shared only in Telegram group, not on LMS.
 
 Current Solutions & Workarounds
 
-Primary solution/workaround: Weekly manual review and sync of all tools on Sunday nights.
-How discovered: After missing two deadlines in a single month.
-Duration: 8 months.
+What they currently do
+Primary solution/workaround: Weekly manual sync session across all tools every Sunday night.
+How they discovered it: After losing marks for missing two deadlines in a single month.
+How long they have used it: Since early 2025.
 
-What works:
+What works
 
-Keeps deadlines consolidated for short-term planning
+Ensures all upcoming tasks are visible in one place
 
-Reduces complete misses
+Reduces risk of total oversight
 
-What doesn’t work:
+What does not work
 
-Time-consuming (2+ hours weekly)
+Takes 2+ hours each week
 
-Does not prevent surprise updates midweek
+Still fails to catch mid-week updates
 
-Still heavily dependent on discipline and memory
+Increases stress rather than reducing it
 
 Tools & Resources Used
 
-Tools/Apps/Systems:
+Tools/apps/systems:
 
-LMS (primary source of official info)
+LMS (main source of deadlines and grades)
 
-Trello (task breakdown and group work)
+Trello (project and team task tracking)
 
-Google Calendar (time-based scheduling)
+Google Calendar (class times and reminders)
 
-Telegram (communication and reminders)
+Telegram (group chats and deadline alerts)
 
 Other resources:
 
-Notes from classmates
+Classmate reminders
 
 Screenshot backups of announcements
 
-Alternatives Tried
+Alternatives They Have Tried
 
-Tried: Todoist, ClickUp, and paper planners.
-Why abandoned: Couldn’t sync with LMS or required too much setup time.
-Why current approach is “least bad”: Allows flexibility with familiar tools even though it demands constant manual upkeep.
+Tried: ClickUp, Todoist, and physical planners.
+Why abandoned: None could sync automatically with LMS or handle frequent changes easily.
+Why current approach is “least bad”: Combines flexibility and familiarity even though it demands constant manual maintenance.
 
 Key Insights & Learnings
 
 Surprising Findings
 
-Students normalize high-effort organization habits to maintain control.
+Students invest several hours weekly just maintaining awareness.
 
-Lack of integration between tools multiplies stress instead of reducing it.
+Manual syncing has become normalized as part of student life.
 
 Contradictions or Tensions
 
-She wants automation but fears missing details if it fails.
+Desires automation but doesn’t fully trust it.
 
-Professors’ inconsistent posting habits worsen tool chaos.
+Professors’ inconsistent posting habits make systems unreliable.
 
 Patterns Emerging
 
-Tool overload causes constant background anxiety.
+Fragmented tools are a universal source of cognitive load.
 
-Manual syncing is the only reliable safety net — at a major time cost.
+Students compensate through time-consuming, error-prone workarounds.
 
 Questions Raised
 
-What features would make students trust automated synchronization?
+What would build student trust in automated synchronization?
 
-Could notifications be standardized across LMS and calendars?
+Could a unified dashboard reduce both anxiety and time waste?
 
-How can systems reduce redundant effort while maintaining student control?
+How might better notification design prevent missed updates?
 
 Confidence Level
 
 ☑ Confident
 
-Why: Interviewee provided detailed, emotionally grounded examples consistent with prior interview data. The story reinforces tool fragmentation as a significant, ongoing academic burden.
+Why? Clear, detailed examples consistent with previous interviews, confirming that fragmentation and update anxiety are widespread and emotionally draining issues.
 
 Next Steps & Follow-Up
 
-Referrals Provided: Shared contact info for a friend managing similar challenges with Trello and Notion.
+Referrals Provided
+Provided contact for a friend who also struggles with cross-tool coordination.
 
-Future Contact:
+Future Contact
 ☑ Participate in future testing
 ☑ Be contacted for follow-up questions
-☑ Review a prototype
+☐ Review a prototype
 ☐ Join a beta test
 
 Best way to reach them: Telegram DM
 
 Interviewer Notes
 
-What went well: The interviewee was reflective and articulate, providing both emotional and technical insights.
-What could be improved: Should probe deeper into how professors’ communication behaviors influence tool stress.
+What went well? The interviewee was articulate and gave practical, relatable examples. Emotional honesty added credibility to findings.
+What could be improved? Could have probed more into professor behavior and institutional communication gaps.
 
 Follow-up actions:
 
-Interview referred peer to compare workflows.
+Interview the referred contact.
 
-Explore automated sync prototype concepts.
+Explore potential automated sync prototype ideas.
 
 Post-Interview Reflection
 
 Date logged: 2025-10-22
-Time to document: 40 minutes
+Time to document: 45 minutes
 
-One-sentence summary: Students face severe cognitive and emotional strain from managing fragmented academic tools, leading to high-effort manual systems and growing distrust in digital automation.
+One-sentence summary: Tool fragmentation and inconsistent communication lead to significant time loss, stress, and dependency on manual maintenance systems, reinforcing student distrust in digital automation.
