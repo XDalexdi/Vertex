@@ -230,5 +230,4 @@ Provided one other French exchange student and one Spanish exchange student.
 
 **One-sentence summary:** International students experience significant academic and emotional strain due to language barriers, inconsistent communication, and cultural differences, leading to over-reliance on inefficient safety behaviors.
 
-Interview log complete ✓
-[file content end]
+Interview log complete 
