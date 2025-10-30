@@ -1,5 +1,4 @@
 [file name]: interview-tracker.md
-[file content begin]
 # Interview Tracker
 Team: Vertex 
 Target: 10 interviews by Week 6
