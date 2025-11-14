@@ -1,206 +1,193 @@
-# Sprint 1 Plan: Foundation & Core Sync
+# Sprint 1 Plan
 
 **Team:** Vertex  
 **Sprint:** 1  
-**Duration:** 2 weeks  
 **Dates:** November 10-21, 2025  
-**Sprint Goal:** Create a functional web application with user authentication, basic dashboard, and LMS connection framework
+**Goal:** Create functional web app with auth, dashboard, and LMS connection framework
 
 ---
 
-## Sprint Overview
+## Updated Task Breakdown
 
-### Sprint Goal
-
-In Sprint 1, we'll build the foundational infrastructure for AcademicFlow including user authentication, database setup, basic dashboard interface, and the initial LMS integration framework. This establishes the core architecture that all subsequent features will build upon. We focus on creating a stable foundation with proper error handling and responsive design from day one.
-
-**Success Criteria:**
-- [ ] Users can create accounts and log in securely
-- [ ] Basic dashboard displays placeholder tasks with responsive design
-- [ ] LMS connection flow implemented with mock data
-- [ ] All team members have working development environments
-- [ ] Core architecture documented and deployed to staging
-
-### Team Capacity
-
-| Member | Role | Available | Committed |
-|--------|------|-----------|-----------|
-| Murman | Technical Lead | 20 hrs | 18 hrs |
-| Aleksandre | Product Lead | 20 hrs | 17 hrs |
-| Demetre | UX/UI Lead | 20 hrs | 19 hrs |
-| Lekso | Frontend Lead | 20 hrs | 16 hrs |
-| Avtandil | Research Lead | 20 hrs | 15 hrs |
-| **Total** | | **100 hrs** | **85 hrs** |
-
----
-
-## User Stories
-
-### User Story #1: User Authentication
-
-As a new student, I want to create an account and log in securely, so that my academic data remains private and personalized to my needs
-
-**Acceptance Criteria:**
-1. Given I'm a new user, when I visit the site, then I can create an account with email and password
-2. Given I have an account, when I enter correct credentials, then I can log in successfully
-3. Given I'm logged in, when I revisit the site, then I remain authenticated across sessions
-4. Given authentication fails, when I try to log in, then I see clear error messages
-
-**Tasks:** 8 tasks, 24 hours total
-
----
-
-## Task Breakdown
-
-### User Story #1 Tasks
-
-**Backend (12 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| BE1 | Design user database schema | Murman | 3h | □ | None |
-| BE2 | Implement JWT authentication | Murman | 5h | □ | BE1 |
-| BE3 | Create user registration API | Aleksandre | 4h | □ | BE2 |
-
-**Frontend (8 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| FE1 | Create login/register components | Demetre | 4h | □ | None |
-| FE2 | Implement auth state management | Lekso | 4h | □ | BE2, FE1 |
-
-**Testing (4 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| T1 | Auth API testing | Aleksandre | 2h | □ | BE3 |
-| T2 | Frontend auth testing | Lekso | 2h | □ | FE2 |
-
-### User Story #5: Basic Dashboard
-
-**Design (6 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| D1 | Dashboard wireframes | Demetre | 3h | □ | None |
-| D2 | Design system foundation | Demetre | 3h | □ | D1 |
-
-**Frontend (10 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| FE3 | Create dashboard layout | Lekso | 4h | □ | D2 |
-| FE4 | Implement task card components | Avtandil | 4h | □ | FE3 |
-| FE5 | Add responsive design | Lekso | 2h | □ | FE4 |
-
-**Backend (6 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| BE4 | Task database schema | Murman | 3h | □ | BE1 |
-| BE5 | Basic task API endpoints | Aleksandre | 3h | □ | BE4 |
-
-### User Story #1: LMS Connection Framework
+### Authentication System (Refined - 26 hours total)
 
 **Backend (14 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| BE6 | LMS API research & planning | Murman | 4h | □ | None |
-| BE7 | Implement LMS connection service | Aleksandre | 6h | □ | BE6 |
-| BE8 | Create mock LMS data for testing | Avtandil | 4h | □ | BE7 |
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| BE1 | Design PostgreSQL schema | Murman | 3h | □ | Users, sessions, institutions tables |
+| BE2 | Implement JWT auth with refresh | Murman | 5h | □ | Secure token rotation, blacklisting |
+| BE3 | User registration API | Aleksandre | 3h | □ | Email validation, password hashing |
+| BE4 | Session management | Aleksandre | 3h | □ | Login/logout, security middleware |
+
+**Frontend (8 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| FE1 | Login/register components | Demetre | 4h | □ | Form validation, error states |
+| FE2 | Auth context & hooks | Lekso | 4h | □ | Protected routes, auto-login |
+
+**Testing (4 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| T1 | Auth API tests | Aleksandre | 2h | □ | Unit tests, edge cases |
+| T2 | Frontend auth tests | Lekso | 2h | □ | Component testing, error handling |
+
+### Dashboard Foundation (Refined - 22 hours total)
+
+**Design (6 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| D1 | Dashboard wireframes | Demetre | 3h | □ | Mobile-first, 3 layout options |
+| D2 | Design system setup | Demetre | 3h | □ | Colors, typography, components |
+
+**Frontend (12 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| FE3 | Dashboard layout | Lekso | 4h | □ | Responsive grid, sidebar nav |
+| FE4 | Task card components | Avtandil | 4h | □ | Reusable, accessible components |
+| FE5 | Mobile optimization | Lekso | 4h | □ | Touch gestures, performance |
+
+**Backend (4 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| BE5 | Task schema & API | Murman | 4h | □ | CRUD operations, validation |
+
+### LMS Integration Framework (Refined - 28 hours total)
+
+**Research & Planning (8 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| R1 | Canvas API research | Murman | 4h | □ | Documentation, rate limits |
+| R2 | Moodle/Blackboard analysis | Aleksandre | 4h | □ | API availability, fallbacks |
+
+**Backend (14 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| BE6 | LMS service architecture | Murman | 6h | □ | Strategy pattern for different LMS |
+| BE7 | Canvas API integration | Aleksandre | 5h | □ | OAuth flow, data normalization |
+| BE8 | Mock data service | Avtandil | 3h | □ | Realistic academic deadlines |
 
 **Frontend (6 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| FE6 | LMS connection UI flow | Demetre | 4h | □ | FE1 |
-| FE7 | Display mock LMS data | Lekso | 2h | □ | FE6, BE8 |
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| FE6 | LMS connection UI | Demetre | 4h | □ | OAuth flow, institution selection |
+| FE7 | Mock data display | Lekso | 2h | □ | Dashboard integration |
 
-**Infrastructure (8 hrs)**
-| ID | Task | Owner | Est | Status | Dependencies |
-|----|------|-------|-----|--------|--------------|
-| INF1 | Set up development environment | Murman | 4h | □ | None |
-| INF2 | Deploy to staging | Aleksandre | 4h | □ | All above |
+### Infrastructure & Deployment (Refined - 12 hours total)
 
----
+**Setup (8 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| INF1 | Dev environment setup | Murman | 4h | □ | Docker, dependencies, docs |
+| INF2 | CI/CD pipeline | Aleksandre | 4h | □ | GitHub Actions, automated testing |
 
-## Sprint Schedule
-
-### Week 1
-**Monday:** Sprint kickoff, environment setup, database design  
-**Tuesday:** Authentication implementation, dashboard wireframes  
-**Wednesday:** Frontend auth components, LMS API research  
-**Thursday:** Dashboard development, LMS service implementation  
-**Friday:** Integration testing, deployment to staging
-
-### Week 2
-**Monday:** LMS connection UI, mock data integration  
-**Tuesday:** Responsive design polish, error handling  
-**Wednesday:** Comprehensive testing, bug fixes  
-**Thursday:** Documentation, final integration  
-**Friday:** Demo preparation, retrospective
+**Deployment (4 hrs)**
+| ID | Task | Owner | Est | Status | Details |
+|----|------|-------|-----|--------|---------|
+| DEP1 | Staging deployment | Murman | 4h | □ | Vercel + Railway, environment vars |
 
 ---
 
-## Daily Standups
+## Updated Team Assignments & Capacity
 
-**Time:** 9:30 AM  
-**Format:** Google Meet (15 minutes sync)
+| Member | Role | Total Hours | Key Tasks |
+|--------|------|-------------|-----------|
+| Murman | Tech Lead | 18 hrs | BE1, BE2, BE5, BE6, INF1, DEP1 |
+| Aleksandre | Product Lead | 17 hrs | BE3, BE4, BE7, T1, INF2 |
+| Demetre | UX/UI Lead | 19 hrs | D1, D2, FE1, FE6 |
+| Lekso | Frontend Lead | 16 hrs | FE2, FE3, FE5, FE7, T2 |
+| Avtandil | Research Lead | 15 hrs | FE4, BE8, user testing prep |
 
-Each member shares:
-1. Completed yesterday
-2. Working on today
-3. Blockers
+**Total Committed:** 85 hours  
+**Buffer:** 15 hours for unexpected issues
 
 ---
 
-## Definition of Done
+## New Dependencies Identified
 
-A task is DONE when:
+**Critical Path:**
+1. Authentication (BE1-BE4) must complete before LMS integration (BE6-BE7)
+2. Design system (D2) must complete before frontend components (FE3-FE5)
+3. LMS research (R1-R2) should run parallel to authentication development
+
+**Risk Areas:**
+- LMS API complexity may require additional research time
+- Mobile performance optimization might need extra iteration
+- Team coordination across different time zones
+
+---
+
+## Updated Definition of Done
+
+**For Each Task:**
 - [ ] Code written and working
-- [ ] Tests written and passing
-- [ ] Code reviewed by at least one team member
-- [ ] Merged to main branch
-- [ ] Deployed to staging environment
-- [ ] Documented if required
-- [ ] Demostrable in Friday demo
+- [ ] Unit tests passing (80%+ coverage)
+- [ ] Code reviewed by different team member
+- [ ] Documentation updated
+- [ ] Deployed to staging
+- [ ] Mobile responsiveness verified
+- [ ] Accessibility requirements met (WCAG 2.1 AA)
+
+**For Sprint Completion:**
+- [ ] All MVP user stories testable end-to-end
+- [ ] Zero critical bugs in staging
+- [ ] Performance: Dashboard loads < 2 seconds
+- [ ] Security: No sensitive data exposure
+- [ ] Team: All members can demo their work
 
 ---
 
-## Risks
+## Blockers & Resolutions
 
-1. **LMS API Complexity:** Mitigation: Start with mock data, research APIs in parallel
-2. **Authentication Security:** Mitigation: Use proven JWT libraries, security review
-3. **Team Coordination:** Mitigation: Daily standups, clear task ownership
-4. **Environment Setup Delays:** Mitigation: Document setup process, pair programming
+**Identified Blockers:**
+1. **LMS API Access** - Some universities require special approval
+   - **Resolution:** Start with mock data, apply for API access in parallel
 
----
+2. **Team Availability** - Different class schedules
+   - **Resolution:** Async communication, daily standup recordings
 
-## Sprint Burndown
+3. **Technical Skill Gaps** - Some team members new to React/Node
+   - **Resolution:** Pair programming, knowledge sharing sessions
 
-| Day | Date | Remaining Hours |
-|-----|------|-----------------|
-| 1 | Nov 10 | 85 |
-| 2 | Nov 11 | 70 |
-| 3 | Nov 12 | 55 |
-| 4 | Nov 13 | 40 |
-| 5 | Nov 14 | 25 |
-| 6 | Nov 17 | 60 |
-| 7 | Nov 18 | 45 |
-| 8 | Nov 19 | 30 |
-| 9 | Nov 20 | 15 |
-| 10 | Nov 21 | 0 |
+**Contingency Plan:**
+- If LMS integration blocked, focus on manual entry features
+- If mobile performance issues, prioritize core functionality
+- If team member unavailable, redistribute critical tasks
 
 ---
 
-## Retrospective (After Sprint)
+## Success Metrics for Sprint 1
 
-**Went Well:**
-- Clear task breakdown and ownership
-- Regular communication through standups
-- Good progress on foundation
+**Technical Metrics:**
+- Authentication success rate: 100%
+- API response time: < 200ms
+- Mobile performance score: > 80/100
+- Test coverage: > 80%
 
-**Didn't Go Well:**
-- Initial environment setup took longer than expected
-- Some API research blocked progress
-
-**Action Items:**
-- [ ] Create better setup documentation - Owner: Murman
-- [ ] Research LMS APIs more thoroughly - Owner: Aleksandre
-- [ ] Improve task estimation for complex features - Owner: All
+**Product Metrics:**
+- Users can complete registration in < 2 minutes
+- Dashboard loads in < 2 seconds on mobile
+- LMS connection flow understandable without instructions
+- Zero data loss in sync operations
 
 ---
 
+## Updated Sprint Schedule
+
+### Week 1 (Nov 10-14)
+**Monday:** Kickoff, environment setup, database design  
+**Tuesday:** Auth implementation, design system, LMS research  
+**Wednesday:** Dashboard components, API development  
+**Thursday:** Integration testing, mobile optimization  
+**Friday:** Deployment to staging, week 1 review
+
+### Week 2 (Nov 17-21)  
+**Monday:** LMS integration, user testing prep
+**Tuesday:** Feature completion, bug fixes
+**Wednesday:** Comprehensive testing, performance optimization
+**Thursday:** Documentation, final polish
+**Friday:** Demo, retrospective, sprint 2 planning
+
+---
+
+**Refined by:** Vertex Team  
+**Approval:** All team members confirm understanding of assignments
