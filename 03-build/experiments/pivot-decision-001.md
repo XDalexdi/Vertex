@@ -67,9 +67,9 @@ The next logical step is to **ITERATE** by immediately transitioning our focus t
 ## Concrete Next Steps
 
 ### Immediate Actions (This Week)
-1. **[Action 1]** - Complete analysis of Experiment 2 (Interviews) to inform prototype. - Owner: [Name] - Due: Next Monday
-2. **[Action 2]** - Finalize prototype for Experiment 3 based on interview insights. - Owner: [Name] - Due: Next Tuesday
-3. **[Action 3]** - Launch Experiment 3 (Prototype Test) to the validated waitlist users. - Owner: [Name] - Due: Next Wednesday
+1. **[Action 1]** - Complete analysis of Experiment 2 (Interviews) to inform prototype. - Due: Next Monday
+2. **[Action 2]** - Finalize prototype for Experiment 3 based on interview insights. - Due: Next Tuesday
+3. **[Action 3]** - Launch Experiment 3 (Prototype Test) to the validated waitlist users. - Due: Next Wednesday
 
 ---
 
