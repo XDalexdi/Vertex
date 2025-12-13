@@ -1,27 +1,27 @@
 # 12-Month Financial Model
 
-**Team:** [Your Team Name]  
-**Date:** December 5, 2025
+**Team:** Vertex  
+**Date:** December 13, 2025
 
 ## Google Sheets Link
 
-[View Financial Model](https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE)
+https://docs.google.com/spreadsheets/d/1k2Bm5yUFXXsayE4_YqNZ0PZnSP9kQwZU4RJt1_jRaPM/edit?usp=sharing
 
 ## Model Summary
 
-- **Starting MRR:** $______
-- **Month 12 MRR:** $______
-- **CAC:** $______
-- **LTV:** $______
-- **LTV:CAC Ratio:** ___:1
-- **Cash Runway:** ___ months
+- **Starting MRR:** $111
+- **Month 12 MRR:** $1205
+- **CAC:** $3200
+- **LTV:** $2600
+- **LTV:CAC Ratio:** 8:1
+- **Cash Runway:** 6 months
 
 ## Versions
 
-- **Base Case:** [Link]
+- **Base Case:** https://docs.google.com/spreadsheets/d/1k2Bm5yUFXXsayE4_YqNZ0PZnSP9kQwZU4RJt1_jRaPM/edit?usp=sharing
 - **Pessimistic:** [Link]
 - **Optimistic:** [Link]
 
 ## Notes
 
-[Any assumptions or important notes about your model]
+[tried our best ]
