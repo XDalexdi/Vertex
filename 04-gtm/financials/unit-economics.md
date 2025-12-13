@@ -276,3 +276,36 @@ TeamLearn demonstrates **exceptionally strong unit economics** for an early-stag
 ## **Appendix: Calculation Details**
 
 ### **Detailed CAC Calculation**
+Monthly S&M Spend = $2,100 (average Months 4-12)
+New Paying Customers = 28/month
+CAC = $2,100 ÷ 28 = $75
+
+Including free users (80% conversion):
+New Total Users = 35/month
+Blended CAC = $2,100 ÷ 35 = $60
+
+text
+
+### **Detailed LTV Calculation**
+Monthly ARPU = $8.33
+Gross Margin = 88%
+Monthly Contribution = $8.33 × 88% = $7.33
+Monthly Churn = 3%
+Customer Lifetime = 1 ÷ 0.03 = 33.3 months
+LTV = $7.33 × 33.3 = $244
+
+text
+
+### **Payback Period**
+Monthly Contribution = $7.33
+CAC = $79
+Payback = $79 ÷ $7.33 = 10.8 months
+
+text
+
+---
+
+**Prepared by:** Vertex Team  
+**Date:** December 23, 2025  
+**Confidence Level:** High (based on validated experiments)  
+**Next Update:** After 100 paying users acquired
