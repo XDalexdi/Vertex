@@ -284,7 +284,7 @@ Including free users (80% conversion):
 New Total Users = 35/month
 Blended CAC = $2,100 ÷ 35 = $60
 
-text
+
 
 ### **Detailed LTV Calculation**
 Monthly ARPU = $8.33
@@ -294,14 +294,14 @@ Monthly Churn = 3%
 Customer Lifetime = 1 ÷ 0.03 = 33.3 months
 LTV = $7.33 × 33.3 = $244
 
-text
+
 
 ### **Payback Period**
 Monthly Contribution = $7.33
 CAC = $79
 Payback = $79 ÷ $7.33 = 10.8 months
 
-text
+
 
 ---
 
