@@ -1,6 +1,6 @@
 # Unit Economics Analysis
 **Team:** Vertex  
-**Product:** TeamLearn  
+**Product:** EMS  
 **Date:** December 23, 2025  
 **Analysis Period:** First 12 months post-MVP launch
 
